@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+:root {
+    --fontes-padrao: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    --fonte-destaque: monospace;
+}
+
+body {
+    font-family: var(--fontes-padrao);
+    color: rgba(0, 0, 0, 0.746);
+}
+
+h1, h2 {
+    font-family: var(--fonte-destaque);
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    color: rgb(52, 140, 174);
+}
+
+header > #informacoes > p {
+    text-align: center;
+}
+
+header > div#imagem {
+    display: block;
+    background: #5f2c82 url('../imagem/OIG.jpg') no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px;
+    height: 190px;
+    width: 400px;
+    margin: auto;
+}
+
+p {
+    padding: 5px;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+main {
+    width: 330px;
+    margin: auto;
+}
+
+iframe {
+    position: relative;
+    margin: 0 auto;
+    width: 320px;
+    background-color: #5f2c82;
+    border-radius: 4px;
+}
+
+hr {
+    width: 50%;
+}
+
+footer > p {
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.625);
+    width: 50%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.destaque {
+    border-radius: 5px;
+    background-color: yellow;
+    color: black;
+    padding: 1px
+}
